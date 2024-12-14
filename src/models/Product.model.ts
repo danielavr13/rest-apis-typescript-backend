@@ -10,6 +10,7 @@ class Product extends Model{
     })
     declare name : String
 
+    
     @Column({
         type: DataType.FLOAT
     })
